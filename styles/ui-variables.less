@@ -1,14 +1,25 @@
 // Colors
 
-@text-color: #444;
-@text-color-subtle: #999;
-@text-color-highlight: #000;
+$black: #262d32;
+$black-80: rgba($black, .8);
+$black-50: rgba($black, .5);
+$white: #fff;
+$white-80: rgba(255, 255, 255, .8);
+$white-50: rgba(255, 255, 255, .5);
+
+$teal: #48B5C8;
+$pink: #F850AA;
+$orange: #F4554A;
+
+@text-color: #262d32;
+@text-color-subtle: #737A7F;
+@text-color-highlight: #F4554A;
 @text-color-selected: #fff;
 
-@text-color-info: #5293d8;
-@text-color-success: #45A815;
-@text-color-warning: #CD8E00;
-@text-color-error: #c00;
+@text-color-info: #48B5C8;
+@text-color-success: #46c8a8;
+@text-color-warning: #F4554A;
+@text-color-error: #F850AA;
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -16,17 +27,17 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: #0098ff;
-@background-color-success: #17ca65;
-@background-color-warning: #ff4800;
-@background-color-error: #c00;
-@background-color-highlight: rgba(0, 0, 0, .1);
-@background-color-selected: #6aa5e9;
+@background-color-info: #fff;
+@background-color-success: #fff;
+@background-color-warning: #fff;
+@background-color-error: #fff;
+@background-color-highlight: #fff;
+@background-color-selected: #fff;
 
-@app-background-color: #ccc;
+@app-background-color: #fff;
 
-@base-background-color: #f4f4f4;
-@base-border-color: #9f9f9f;
+@base-background-color: #fff;
+@base-border-color: #F850AA;
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: @base-border-color;
@@ -40,7 +51,7 @@
 @inset-panel-background-color: #fff;
 @inset-panel-border-color: fadeout(@base-border-color, 10%);
 
-@panel-heading-background-color: #c3c3c3;
+@panel-heading-background-color: #fff;
 @panel-heading-border-color: transparent;
 
 @overlay-background-color: #ececec;
@@ -48,12 +59,12 @@
 
 @button-background-color: @base-background-color;
 @button-background-color-hover: lighten(@button-background-color, 5%);
-@button-background-color-selected: #888;
-@button-border-color: rgba(0, 0, 0, 0.15);
+@button-background-color-selected: #46c8a8;
+@button-border-color: rgba(0, 0, 0, 0.05);
 
-@tab-bar-background-color: #d8d8d8;
-@tab-bar-border-color: #ddd;
-@tab-background-color: #e8e8e8;
+@tab-bar-background-color: #eee;
+@tab-bar-border-color: #eee;
+@tab-background-color: #eee;
 @tab-background-color-active: #f0f0f0;
 @tab-border-color: lighten(@base-border-color, 10%);
 
@@ -66,8 +77,8 @@
 @ui-site-color-1: @background-color-success; // green
 @ui-site-color-2: @background-color-info; // blue
 @ui-site-color-3: @background-color-warning; // orange
-@ui-site-color-4: #db2ff4; // purple
-@ui-site-color-5: #f5e11d; // yellow
+@ui-site-color-4: #fff; // purple
+@ui-site-color-5: #fff; // yellow
 
 
 // Sizes
